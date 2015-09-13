@@ -18,3 +18,7 @@ end
 SpreeI18n::Config.available_locales = [:pl, :en, :de]
 
 Spree.user_class = "Spree::User"
+
+Spree::AppConfiguration.class_eval do
+  preference :site_name, :string, :default => 'apree_shop'
+end
