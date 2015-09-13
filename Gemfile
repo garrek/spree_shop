@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+gem 'mysql'
 
 gem 'spree', github: 'spree/spree'
 gem 'spree_gateway', github: 'spree/spree_gateway'
